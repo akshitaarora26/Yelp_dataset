@@ -5,46 +5,46 @@ This project analyzes the Yelp Dataset to explore a business opportunity for ope
 
 The goal is to identify the optimal location for a new Acai Bowl restaurant and assess its potential success based on customer feedback, business density, and category analysis.
 
-Dataset
+## Dataset
 The Yelp dataset includes the following JSON files:
 
-yelp_academic_dataset_review.json: Contains reviews and ratings data.
-yelp_academic_dataset_business.json: Contains business details, such as categories, location, and opening hours.
-yelp_academic_dataset_checkin.json: Contains business check-in data.
-yelp_academic_dataset_tip.json: Contains user tips and feedback.
-yelp_academic_dataset_user.json: Contains user profile details.
+1. yelp_academic_dataset_review.json: Contains reviews and ratings data.
+2. yelp_academic_dataset_business.json: Contains business details, such as categories, location, and opening hours.
+3. yelp_academic_dataset_checkin.json: Contains business check-in data.
+4. yelp_academic_dataset_tip.json: Contains user tips and feedback.
+5. yelp_academic_dataset_user.json: Contains user profile details.
+
 All data files were processed and loaded into Azure SQL Server for analysis.
 
-Tools and Technologies
+## Tools and Technologies
 Programming Language: Python
 Libraries: Pandas, SQLAlchemy, pyODBC, JSON
 Database: Azure SQL Server
 Environment: Kaggle Notebook
 SQL Queries: Used for in-depth data analysis.
-Process Workflow
-Data Extraction:
 
-Loaded JSON files using json and pandas libraries.
-Converted data into structured dataframes.
-Data Preprocessing:
+## Process Workflow
+1. Data Extraction:
 
-Dropped duplicates and null values.
-Converted date columns to appropriate datetime formats.
-Database Setup:
+- Loaded JSON files using json and pandas libraries.
+- Converted data into structured dataframes.
+2. Data Preprocessing:
 
-Established a connection to Azure SQL Server using SQLAlchemy and pyODBC.
-Uploaded dataframes to SQL Server as relational tables.
-Analysis Queries:
+- Dropped duplicates and null values.
+- Converted date columns to appropriate datetime formats.
+3. Database Setup:
+- Established a connection to Azure SQL Server using SQLAlchemy and pyODBC.
+- Uploaded dataframes to SQL Server as relational tables.
+4. Analysis Queries:
+- Analyzed Acai Bowl categories and their distribution across cities.
+- Identified market trends in St. Louis for Acai Bowls.
+- Explored customer feedback, average ratings, tips, and business hours.
+- Assessed busiest postal codes in St. Louis for optimal business location.
 
-Analyzed Acai Bowl categories and their distribution across cities.
-Identified market trends in St. Louis for Acai Bowls.
-Explored customer feedback, average ratings, tips, and business hours.
-Assessed busiest postal codes in St. Louis for optimal business location.
-Key Findings
-Category Analysis:
-
-Acai Bowl restaurants are sparse in the dataset, presenting an opportunity.
-Most Acai Bowl restaurants in the U.S. are concentrated in Tampa, while St. Louis has only one.
+## Key Findings
+1. Category Analysis:
+- Acai Bowl restaurants are sparse in the dataset, presenting an opportunity.
+- Most Acai Bowl restaurants in the U.S. are concentrated in Tampa, while St. Louis has only one.
 Customer Feedback:
 
 Reviews for the existing Acai Bowl restaurant in St. Louis indicate dissatisfaction with taste, suggesting room for competition.
