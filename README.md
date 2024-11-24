@@ -45,21 +45,20 @@ SQL Queries: Used for in-depth data analysis.
 1. Category Analysis:
 - Acai Bowl restaurants are sparse in the dataset, presenting an opportunity.
 - Most Acai Bowl restaurants in the U.S. are concentrated in Tampa, while St. Louis has only one.
-Customer Feedback:
+2. Customer Feedback:
+- Reviews for the existing Acai Bowl restaurant in St. Louis indicate dissatisfaction with taste, suggesting room for competition.
+3. Market Potential:
+- Many reviews in St. Louis mention breakfast and morning preferences, hinting at demand for early-morning offerings.
+4. Optimal Location:
+- The busiest postal codes in St. Louis are 63108 and 63110.
+- Since the existing Acai Bowl restaurant is in 63108, 63110 offers a strategic opportunity to attract new customers.
 
-Reviews for the existing Acai Bowl restaurant in St. Louis indicate dissatisfaction with taste, suggesting room for competition.
-Market Potential:
 
-Many reviews in St. Louis mention breakfast and morning preferences, hinting at demand for early-morning offerings.
-Optimal Location:
+## Conclusion
+Based on the analysis, opening a new _Acai Bowl restaurant in St. Louis_ , postal code 63110 could fill a market gap and cater to unmet demand for healthy breakfast options.
 
-The busiest postal codes in St. Louis are 63108 and 63110.
-Since the existing Acai Bowl restaurant is in 63108, 63110 offers a strategic opportunity to attract new customers.
-Conclusion
-Based on the analysis, opening a new Acai Bowl restaurant in St. Louis, postal code 63110 could fill a market gap and cater to unmet demand for healthy breakfast options.
-
-How to Run This Project
+## How to Run This Project
 Prerequisites
-Python 3.7 or higher
-Kaggle environment or local Jupyter Notebook
-Azure SQL Server account
+- Python 3.7 or higher
+- Kaggle environment or local Jupyter Notebook
+- Azure SQL Server account
